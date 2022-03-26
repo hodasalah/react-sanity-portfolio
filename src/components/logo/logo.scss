@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap");
+.logo {
+	display: flex;
+	align-items: center;
+
+	& h3 {
+		font-family: "Old Standard TT", serif;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 2;
+		color: var(--dark-blue);
+		& span {
+			color: var(--pink-color);
+		}
+	}
+}

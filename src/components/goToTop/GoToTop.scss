@@ -1,0 +1,25 @@
+.goTopHidden {
+	display: none;
+}
+.goTop {
+	display: block;
+	outline: none;
+	position: fixed;
+	bottom: 5%;
+	left: 90%;
+	cursor: pointer;
+	border-radius: 50%;
+	background-color: var(--pink-color);
+	border: 0;
+	height: 40px;
+	width: 40px;
+	transition: all 0.5s ease;
+	svg {
+		fill: var(--white-color);
+		width: 20px;
+		height: 20px;
+	}
+	&:hover {
+		transform: scale(1.1);
+	}
+}

@@ -1,15 +1,13 @@
 .app__navbar {
 	width: 100%;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 
 	padding: 0.5rem 2rem;
-	background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.01);
 	backdrop-filter: blur(4px);
 	-webkit-backdrop-filter: blur(4px);
-	border: 1px solid rgba(255, 255, 255, 0.8);
 
 	position: fixed;
 	z-index: 2;
@@ -24,8 +22,9 @@
 			position: relative;
 			a {
 				text-decoration: none;
+				text-transform: uppercase;
 				font-weight: 600;
-				color: var(--gray-color);
+				color: var(--white-color);
 			}
 			&:after {
 				content: "";
@@ -42,7 +41,7 @@
 				height: 5px;
 			}
 			&:hover a {
-				color: var(--dark-blue);
+				color: var(--pink-color);
 			}
 		}
 		@media screen and (max-width: 767px) {
@@ -51,6 +50,17 @@
 	}
 	@media screen and (max-width: 767px) {
 		padding: 0.5rem 0.5rem;
+	}
+}
+
+//.sticky navabar
+.sticky {
+	background-color: var(--secondary-color);
+	ul > li > a {
+		color: var(--white-color);
+	}
+	@media screen and (max-width: 767px) {
+		display: none;
 	}
 }
 //mobile menu
@@ -112,7 +122,7 @@
 				a {
 					text-decoration: none;
 					font-size: 20px;
-					color: var(--black-color);
+					color: var(--secondary-color);
 					padding: 1rem 1rem;
 				}
 				&:before {

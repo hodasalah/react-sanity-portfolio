@@ -47,7 +47,7 @@
 
 	p {
 		text-transform: uppercase;
-		color: var(--black-color);
+		color: var(--gray-color);
 	}
 }
 
@@ -59,7 +59,7 @@
 	text-transform: capitalize;
 
 	span {
-		color: var(--secondary-color);
+		color: var(--pink-color);
 	}
 
 	@media screen and (min-width: 2000px) {
@@ -102,8 +102,7 @@
 	justify-content: flex-end;
 	align-items: center;
 	flex-direction: column;
-
-	padding: 1rem;
+	padding: 6rem 1rem;
 
 	div {
 		width: 40px;
@@ -122,12 +121,12 @@
 		svg {
 			width: 15px;
 			height: 15px;
-			color: var(--gray-color);
+			color: var(--pink-color);
 		}
 
 		&:hover {
-			background-color: var(--secondary-color);
-			border-color: var(--secondary-color);
+			background-color: var(--pink-color);
+			border-color: var(--pink-color);
 
 			svg {
 				color: var(--white-color);
@@ -166,7 +165,7 @@
 		transition: background-color 0.2s ease-in-out;
 
 		&:hover {
-			background-color: var(--secondary-color);
+			background-color: var(--pink-color);
 		}
 
 		@media screen and (min-width: 2000px) {

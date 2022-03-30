@@ -10,8 +10,8 @@
 	--gray-color: #6b7688;
 	--brown-color: #46364a;
 	--white-color: #ffffff;
-	--pink-color: #ff2e9b;
-	--dark-blue: #183d7e;
+	--pink-color: #dd2d4e;
+	--dark-blue: #274782;
 }
 
 * {
@@ -20,12 +20,12 @@
 	margin: 0;
 	scroll-behavior: smooth;
 }
-body{
-  position:relative;
+body {
+	position: relative;
 }
 ::selection {
-	color: var(--pink-color);
-	background: var(--dark-blue);
+	color: #fff;
+	background: var(--pink-color);
 	text-shadow: none;
 }
 
@@ -45,33 +45,35 @@ body::-webkit-scrollbar-thumb {
 }
 /*border -multicolor*/
 .border-multicolor {
-  -o-border-image: linear-gradient(
-      90deg,
-      #183d7e,
-      #183d7e 20%,
-      #ff2e9b 0,
-      #f9655b 40%,
-      #f5c070 0,
-      #f5c070 60%,
-      #0066ff 0,
-      #0066ff 80%,
-      #fcc 0
-    )
-    1;
-  border-image: linear-gradient(
-      90deg,
-      #183d7e,
-      #183d7e 20%,
-      #ff2e9b 0,
-      #f9655b 40%,
-      #f5c070 0,
-      #f5c070 60%,
-      #0066ff 0,
-      #0066ff 80%,
-      #fcc 0
-    )
-    1;
-  border-width: 0;
-  border-top: 5px solid;
+	-o-border-image: linear-gradient(
+			90deg,
+			#183d7e,
+			#183d7e 20%,
+			#ef0454 0,
+			#f9655b 40%,
+			#f5c070 0,
+			#f5c070 60%,
+			#0066ff 0,
+			#0066ff 80%,
+			#fcc 0
+		)
+		1;
+	border-image: linear-gradient(
+			90deg,
+			#183d7e,
+			#183d7e 20%,
+			#ef0454 0,
+			#f9655b 40%,
+			#f5c070 0,
+			#f5c070 60%,
+			#0066ff 0,
+			#0066ff 80%,
+			#fcc 0
+		)
+		1;
+	border-width: 0;
+	border-top: 5px solid;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 0;
 }
-
